@@ -54,29 +54,29 @@ Colors+=(
 	["BIWhite"]='\e[1;97m'
 
 	# Background
-	["On_Black"]='\e[40m'
-	["On_Red"]='\e[41m'
-	["On_Green"]='\e[42m'
-	["On_Yellow"]='\e[43m'
-	["On_Blue"]='\e[44m'
-	["On_Purple"]='\e[45m'
-	["On_Cyan"]='\e[46m'
-	["On_White"]='\e[47m'
+	["OnBlack"]='\e[40m'
+	["OnRed"]='\e[41m'
+	["OnGreen"]='\e[42m'
+	["OnYellow"]='\e[43m'
+	["OnBlue"]='\e[44m'
+	["OnPurple"]='\e[45m'
+	["OnCyan"]='\e[46m'
+	["OnWhite"]='\e[47m'
 
 	# High Intensity Backgrounds
-	["On_IBlack"]='\e[0;100m'
-	["On_IRed"]='\e[0;101m'
-	["On_IGreen"]='\e[0;102m'
-	["On_IYellow"]='\e[0;103m'
-	["On_IBlue"]='\e[0;104m'
-	["On_IPurple"]='\e[0;105m'
-	["On_ICyan"]='\e[0;106m'
-	["On_IWhite"]='\e[0;107m'
+	["OnIBlack"]='\e[0;100m'
+	["OnIRed"]='\e[0;101m'
+	["OnIGreen"]='\e[0;102m'
+	["OnIYellow"]='\e[0;103m'
+	["OnIBlue"]='\e[0;104m'
+	["OnIPurple"]='\e[0;105m'
+	["OnICyan"]='\e[0;106m'
+	["OnIWhite"]='\e[0;107m'
 )
 ColorReset='\e[0m'
 
 for key in "${!Colors[@]}"; do
-  value="${Colors[$key]}"
+	value="${Colors[$key]}"
 
 	eval "echo$key() { echo -e \"${value}\$1${ColorReset}\"; }"
 done
