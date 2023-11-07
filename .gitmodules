@@ -1,3 +1,4 @@
 [submodule "data/git"]
 	path = data/git
 	url = git@github.com:aisevim/git-config.git
+  fetchRecurseSubmodules = true
