@@ -1,12 +1,10 @@
 #!/bin/bash
 
-if HEL::command_not_exist "git"; then
-	echoIBlue "install 'git'..."
-	sudo apt install git-all
-	echoIGreen "'git' install success"
-fi
+echoIBlue "Installation of 'git' in progress...."
+sudo apt install -y git-all
+echoIGreen "'git' has been successfully installed"
 
-echoIBlue "copy git config files..."
+echoIBlue "copy 'git' config files..."
 cp ./data/git/.gitconfig ~/.gitconfig
 cp -r ./data/git/.git-custom ~/.git-custom
 echoIGreen "copy done"
