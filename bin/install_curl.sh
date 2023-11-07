@@ -1,8 +1,9 @@
 #!/bin/bash
 
-echoOnBlue "CURL\n"
-
 if HEL::command_not_exist "curl"; then
+	echoOnBlue "CURL\n"
+	echoOnBlue "\n"
+
 	echoIBlue "Installation of 'curl' in progress...."
 
 	# https://curl.se/
