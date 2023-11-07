@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echoOnBlue "VOLTA - NODE - PNPM\n"
 echoIBlue "Installation of 'volta' in progress...."
 
 # node version manager
@@ -11,7 +12,7 @@ volta install node@18
 volta install pnpm
 
 if ! HEL::command_not_exist "pnpm" && ! HEL::command_not_exist "node"; then
-	echoIGreen "'node' and 'pnpm' has been successfully installed"
+	echoIGreen "'node' and 'pnpm' has been successfully installed\n\n\n"
 else
 	echoOnIRed "failed on 'node' or 'pnpm' install :("
 	exit 1

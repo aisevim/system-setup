@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echoOnBlue "CURL\n"
+
 if HEL::command_not_exist "curl"; then
 	echoIBlue "Installation of 'curl' in progress...."
 
@@ -7,7 +9,7 @@ if HEL::command_not_exist "curl"; then
   sudo apt install -y curl
 
 	if ! HEL::command_not_exist "curl"; then
-		echoIGreen "'curl' has been successfully installed"
+		echoIGreen "'curl' has been successfully installed\n\n\n"
 	else
 	  echoOnIRed "failed on 'curl' install :("
 		exit 1
