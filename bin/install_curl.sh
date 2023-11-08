@@ -7,4 +7,3 @@ echoIBlue "Installation of 'curl' in progress...."
 sudo apt install -y curl
 
 echoIGreen "'curl' has been successfully installed"
-echo "\n\n\n"
