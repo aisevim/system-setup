@@ -12,4 +12,5 @@ yes Y | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/ma
 echoIBlue "Installation of 'fonts-powerline' for theme 'agnoster'"
 sudo apt install -y fonts-powerline
 
+echoIBlue "copy '.zshrc' config file..."
 cp ./data/zsh/.zshrc ~/.zshrc
