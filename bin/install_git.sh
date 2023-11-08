@@ -10,3 +10,6 @@ echoIBlue "copy 'git' config files..."
 cp ./data/git/.gitconfig ~/.gitconfig
 cp -r ./data/git/.git-custom ~/.git-custom
 echoIGreen "copy done"
+
+git config --global user.name "$gitname"
+git config --global user.email "$gitemail"

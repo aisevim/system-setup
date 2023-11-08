@@ -1,8 +1,9 @@
 #!/bin/bash
 source lib/colors.sh
-source lib/helper_functions.sh
 
 read -s -p "Enter Password for sudo: " sudopwd
+read -s -p "Enter git user name: " gitname
+read -s -p "Enter git email: " gitemail
 
 source bin/install_curl.sh
 source bin/install_git.sh
