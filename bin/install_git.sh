@@ -3,7 +3,7 @@
 echoOnBlue "GiT"
 echoIBlue "Installation of 'git' in progress...."
 
-echo $sudopwd | sudo apt install -y git-all
+sudo apt install -y git-all
 echoIGreen "'git' has been successfully installed"
 
 echoIBlue "copy 'git' config files..."

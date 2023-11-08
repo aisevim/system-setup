@@ -3,8 +3,8 @@
 echoOnBlue "ZSH - Oh My ZSH"
 echoIBlue "Installation of 'zsh' in progress...."
 
-echo $sudopwd | sudo apt install -y zsh
-echo $sudopwd | chsh -s $(which zsh)
+sudo apt install -y zsh
+chsh -s $(which zsh)
 
 echoIBlue "Installation of 'Oh My ZSH' in progress...."
 yes Y | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
