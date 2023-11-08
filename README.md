@@ -5,6 +5,6 @@ git clone --recursive https://github.com/aisevim/system-setup.git # don't forget
 ```
 
 run
-```
+```sh
 bash bin/install.sh
 ```

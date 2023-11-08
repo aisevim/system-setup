@@ -13,4 +13,5 @@ echoIBlue "Installation of 'fonts-powerline' for theme 'agnoster'"
 sudo apt install -y fonts-powerline
 
 echoIBlue "copy '.zshrc' config file..."
+cp ~/.zshrc ~/.zshrc.old__
 cp ./data/zsh/.zshrc ~/.zshrc
