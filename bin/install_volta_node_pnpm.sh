@@ -7,7 +7,7 @@ echoIBlue "Installation of 'volta' in progress...."
 # https://volta.sh/
 curl https://get.volta.sh | bash
 
-~/.volta/bin/volta install node@18
+~/.volta/bin/volta install node@20
 ~/.volta/bin/volta install pnpm
 
 echoIGreen "'volta', 'node' and 'pnpm' has been successfully installed"
