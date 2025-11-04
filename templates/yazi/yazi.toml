@@ -1,0 +1,11 @@
+[mgr]
+ratio = [2, 6, 6]
+show_hidden = true
+sort_dir_first = true
+linemode = "permissions"
+
+[preview]
+wrap = "yes"
+
+[input]
+cursor_blink = true
