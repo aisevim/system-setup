@@ -1,0 +1,6 @@
+[mgr]
+
+append_keymap = [
+	{ on = "<C-Up>", run = "arrow -50%",  desc = "Move cursor up half page" },
+	{ on = "<C-Down>", run = "arrow 50%",   desc = "Move cursor down half page" },
+]
