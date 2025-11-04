@@ -69,6 +69,11 @@ CASE_SENSITIVE="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  volta
+  docker
+  pip
+  ssh
+  terraform
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
